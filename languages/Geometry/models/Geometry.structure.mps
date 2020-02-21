@@ -31,6 +31,7 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
       </concept>
@@ -515,6 +516,47 @@
       <property role="20kJfa" value="row_z" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="7OYgVnY_xcN" resolve="Vector3" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="h2tv$hHMiv">
+    <property role="EcuMT" value="306937437219136671" />
+    <property role="TrG5h" value="ExampleContext" />
+    <property role="19KtqR" value="true" />
+    <property role="3GE5qa" value="" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="h2tv$hHMiw" role="1TKVEi">
+      <property role="IQ2ns" value="306937437219136672" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="points" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="h2tv$hHMis" resolve="Point" />
+    </node>
+    <node concept="1TJgyj" id="7OYgVnY_p5X" role="1TKVEi">
+      <property role="IQ2ns" value="9024725152236409213" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rigid_bodies" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7OYgVnY_bv8" resolve="IRigidBody" />
+    </node>
+    <node concept="1TJgyj" id="7OYgVnY_slc" role="1TKVEi">
+      <property role="IQ2ns" value="9024725152236422476" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="poses" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7WHB7FIZyxF" resolve="Pose" />
+    </node>
+    <node concept="1TJgyj" id="7OYgVnYBgJd" role="1TKVEi">
+      <property role="IQ2ns" value="9024725152236899277" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="velocities" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7WHB7FIZyxU" resolve="Twist" />
+    </node>
+    <node concept="1TJgyj" id="7OYgVnYBjvX" role="1TKVEi">
+      <property role="IQ2ns" value="9024725152236910589" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="accelerations" />
+      <ref role="20lvS9" node="1zmxZ3ZaIPG" resolve="AccelerationTwist" />
     </node>
   </node>
 </model>
