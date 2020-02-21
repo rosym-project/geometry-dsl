@@ -44,6 +44,7 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -1066,6 +1067,57 @@
       <property role="20kJfa" value="angular_velocity" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="byiqNhh6H$" resolve="AngularVelocity" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6mgQyaw2WiE">
+    <property role="EcuMT" value="7318589236725925034" />
+    <property role="TrG5h" value="ComposeRotationMatrix" />
+    <property role="3GE5qa" value="operations" />
+    <ref role="1TJDcQ" node="7ytwbyBw_BF" resolve="ComposeOrientation" />
+    <node concept="1TJgyj" id="6mgQyaw2WiF" role="1TKVEi">
+      <property role="IQ2ns" value="7318589236725925035" />
+      <property role="20kJfa" value="orientation1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7OYgVnY_v$V" resolve="RotationMatrix" />
+      <ref role="20ksaX" node="7ytwbyBwfqS" resolve="orientation1" />
+    </node>
+    <node concept="1TJgyj" id="6mgQyaw2WiH" role="1TKVEi">
+      <property role="IQ2ns" value="7318589236725925037" />
+      <property role="20kJfa" value="orientation2" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7OYgVnY_v$V" resolve="RotationMatrix" />
+      <ref role="20ksaX" node="7ytwbyBwfqU" resolve="orientation2" />
+    </node>
+    <node concept="1TJgyj" id="6mgQyaw2WiK" role="1TKVEi">
+      <property role="IQ2ns" value="7318589236725925040" />
+      <property role="20kJfa" value="result" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7OYgVnY_v$V" resolve="RotationMatrix" />
+      <ref role="20ksaX" node="7ytwbyBwfqX" resolve="result" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6mgQyaw2Wk5">
+    <property role="EcuMT" value="7318589236725925125" />
+    <property role="3GE5qa" value="operations" />
+    <property role="TrG5h" value="TransformScrewTwistWithAffineTransformationFromReferenceToTarget" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6mgQyaw2Wkb" role="1TKVEi">
+      <property role="IQ2ns" value="7318589236725925131" />
+      <property role="20kJfa" value="transform" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7OYgVnY_nvj" resolve="AffineTransformation" />
+    </node>
+    <node concept="1TJgyj" id="6mgQyaw2Wk6" role="1TKVEi">
+      <property role="IQ2ns" value="7318589236725925126" />
+      <property role="20kJfa" value="twist" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2FmoLYqH4ej" resolve="ScrewTwist" />
+    </node>
+    <node concept="1TJgyj" id="6mgQyaw2Wk8" role="1TKVEi">
+      <property role="IQ2ns" value="7318589236725925128" />
+      <property role="20kJfa" value="transformed_twist" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2FmoLYqH4ej" resolve="ScrewTwist" />
     </node>
   </node>
 </model>
