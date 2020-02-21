@@ -559,5 +559,514 @@
       <ref role="20lvS9" node="1zmxZ3ZaIPG" resolve="AccelerationTwist" />
     </node>
   </node>
+  <node concept="1TIwiD" id="byiqNhh6Hx">
+    <property role="EcuMT" value="207809539406588769" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="ComposePose" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7OYgVnYBoGK" role="1TKVEi">
+      <property role="IQ2ns" value="9024725152236931888" />
+      <property role="20kJfa" value="pose1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxF" resolve="Pose" />
+    </node>
+    <node concept="1TJgyj" id="7OYgVnYBoGM" role="1TKVEi">
+      <property role="IQ2ns" value="9024725152236931890" />
+      <property role="20kJfa" value="pose2" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxF" resolve="Pose" />
+    </node>
+    <node concept="1TJgyj" id="7OYgVnYBoGP" role="1TKVEi">
+      <property role="IQ2ns" value="9024725152236931893" />
+      <property role="20kJfa" value="result" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxF" resolve="Pose" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7WHB7FIZyzc">
+    <property role="EcuMT" value="9164152868578404556" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="DifferentiateTwist" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7WHB7FIZyzd" role="1TKVEi">
+      <property role="IQ2ns" value="9164152868578404557" />
+      <property role="20kJfa" value="twist1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxU" resolve="Twist" />
+    </node>
+    <node concept="1TJgyj" id="7WHB7FIZyzf" role="1TKVEi">
+      <property role="IQ2ns" value="9164152868578404559" />
+      <property role="20kJfa" value="twist2" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxU" resolve="Twist" />
+    </node>
+    <node concept="1TJgyj" id="7WHB7FIZyzi" role="1TKVEi">
+      <property role="IQ2ns" value="9164152868578404562" />
+      <property role="20kJfa" value="acceleration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1zmxZ3ZaIPG" resolve="AccelerationTwist" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwfqz">
+    <property role="EcuMT" value="8691244386467509923" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="AddPosition" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBwfra" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509962" />
+      <property role="20kJfa" value="position1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="h2tv$hHMir" resolve="Position" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfrc" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509964" />
+      <property role="20kJfa" value="position2" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="h2tv$hHMir" resolve="Position" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfrf" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509967" />
+      <property role="20kJfa" value="result" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="h2tv$hHMir" resolve="Position" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwfq$">
+    <property role="EcuMT" value="8691244386467509924" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="AddTwist" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBwfr1" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509953" />
+      <property role="20kJfa" value="twist1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxU" resolve="Twist" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfr3" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509955" />
+      <property role="20kJfa" value="twist2" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxU" resolve="Twist" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfr6" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509958" />
+      <property role="20kJfa" value="result" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxU" resolve="Twist" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwfq_">
+    <property role="EcuMT" value="8691244386467509925" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="AddAccelerationTwist" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwfqA">
+    <property role="EcuMT" value="8691244386467509926" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="InvertPosition" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBwfqD" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509929" />
+      <property role="20kJfa" value="position" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="h2tv$hHMir" resolve="Position" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfqF" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509931" />
+      <property role="20kJfa" value="inverse" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="h2tv$hHMir" resolve="Position" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwfqB">
+    <property role="EcuMT" value="8691244386467509927" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="InvertOrientation" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBwfqN" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509939" />
+      <property role="20kJfa" value="orientation" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6Hy" resolve="Orientation" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfqP" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509941" />
+      <property role="20kJfa" value="inverse" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6Hy" resolve="Orientation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwfqC">
+    <property role="EcuMT" value="8691244386467509928" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="InvertPose" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBwfqI" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509934" />
+      <property role="20kJfa" value="pose" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxF" resolve="Pose" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfqK" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509936" />
+      <property role="20kJfa" value="inverse" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxF" resolve="Pose" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwfrj">
+    <property role="EcuMT" value="8691244386467509971" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="AddLinearVelocity" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBwfrk" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509972" />
+      <property role="20kJfa" value="velocity1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6Hz" resolve="LinearVelocity" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfrm" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509974" />
+      <property role="20kJfa" value="velocity2" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6Hz" resolve="LinearVelocity" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfrp" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509977" />
+      <property role="20kJfa" value="result" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6Hz" resolve="LinearVelocity" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwfrt">
+    <property role="EcuMT" value="8691244386467509981" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="AddAngularVelocity" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBwfru" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509982" />
+      <property role="20kJfa" value="velocity1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6H$" resolve="AngularVelocity" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfrw" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509984" />
+      <property role="20kJfa" value="velocity2" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6H$" resolve="AngularVelocity" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfrz" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509987" />
+      <property role="20kJfa" value="result" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6H$" resolve="AngularVelocity" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwfrB">
+    <property role="EcuMT" value="8691244386467509991" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="AddLinearAcceleration" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBwfrC" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509992" />
+      <property role="20kJfa" value="acceleration1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7OYgVnY_bvL" resolve="LinearAcceleration" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfrE" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509994" />
+      <property role="20kJfa" value="acceleration2" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7OYgVnY_bvL" resolve="LinearAcceleration" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfrH" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509997" />
+      <property role="20kJfa" value="result" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7OYgVnY_bvL" resolve="LinearAcceleration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwfrL">
+    <property role="EcuMT" value="8691244386467510001" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="AddAngularAcceleration" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBwfrM" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467510002" />
+      <property role="20kJfa" value="acceleration1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7OYgVnY_bvX" resolve="AngularAcceleration" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfrO" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467510004" />
+      <property role="20kJfa" value="acceleration2" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7OYgVnY_bvX" resolve="AngularAcceleration" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfrR" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467510007" />
+      <property role="20kJfa" value="result" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7OYgVnY_bvX" resolve="AngularAcceleration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwqcC">
+    <property role="EcuMT" value="8691244386467554088" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="InvertLinearVelocity" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBwqcD" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467554089" />
+      <property role="20kJfa" value="linear_velocity" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6Hz" resolve="LinearVelocity" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwqcF" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467554091" />
+      <property role="20kJfa" value="inverse" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6Hz" resolve="LinearVelocity" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwqcI">
+    <property role="EcuMT" value="8691244386467554094" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="InvertAngularVelocity" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBwqcJ" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467554095" />
+      <property role="20kJfa" value="angular_velocity" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6H$" resolve="AngularVelocity" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwqcL" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467554097" />
+      <property role="20kJfa" value="inverse" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6H$" resolve="AngularVelocity" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwqcO">
+    <property role="EcuMT" value="8691244386467554100" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="InvertTwist" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBwqcP" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467554101" />
+      <property role="20kJfa" value="twist" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxU" resolve="Twist" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwqcR" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467554103" />
+      <property role="20kJfa" value="inverse" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxU" resolve="Twist" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwqcU">
+    <property role="EcuMT" value="8691244386467554106" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="InvertAccelerationTwist" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBwqcV" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467554107" />
+      <property role="20kJfa" value="acceleration_twist" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1zmxZ3ZaIPG" resolve="AccelerationTwist" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwqcX" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467554109" />
+      <property role="20kJfa" value="inverse" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1zmxZ3ZaIPG" resolve="AccelerationTwist" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwqd0">
+    <property role="EcuMT" value="8691244386467554112" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="InvertLinearAcceleration" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBwqd1" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467554113" />
+      <property role="20kJfa" value="linear_acceleration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7OYgVnY_bvL" resolve="LinearAcceleration" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwqd3" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467554115" />
+      <property role="20kJfa" value="inverse" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7OYgVnY_bvL" resolve="LinearAcceleration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBwqd6">
+    <property role="EcuMT" value="8691244386467554118" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="InvertAngularAcceleration" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBwqd7" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467554119" />
+      <property role="20kJfa" value="angular_acceleration" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7OYgVnY_bvX" resolve="AngularAcceleration" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwqd9" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467554121" />
+      <property role="20kJfa" value="inverse" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7OYgVnY_bvX" resolve="AngularAcceleration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBw_Bv">
+    <property role="EcuMT" value="8691244386467600863" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="IntegrateTwist" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBw_Bw" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467600864" />
+      <property role="20kJfa" value="twist" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxU" resolve="Twist" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBw_By" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467600866" />
+      <property role="20kJfa" value="displacement" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxF" resolve="Pose" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBw_B_">
+    <property role="EcuMT" value="8691244386467600869" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="DifferentiatePose" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBw_BA" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467600870" />
+      <property role="20kJfa" value="displacement" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxF" resolve="Pose" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBw_BC" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467600872" />
+      <property role="20kJfa" value="twist" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7WHB7FIZyxU" resolve="Twist" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBw_BF">
+    <property role="TrG5h" value="ComposeOrientation" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="EcuMT" value="8691244386467509922" />
+    <property role="R5$K7" value="true" />
+    <node concept="1TJgyj" id="7ytwbyBwfqS" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509944" />
+      <property role="20kJfa" value="orientation1" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6Hy" resolve="Orientation" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfqU" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509946" />
+      <property role="20kJfa" value="orientation2" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6Hy" resolve="Orientation" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBwfqX" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467509949" />
+      <property role="20kJfa" value="result" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6Hy" resolve="Orientation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBw_Cc">
+    <property role="EcuMT" value="8691244386467600908" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="IntegrateAngularVelocity" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBw_Cd" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467600909" />
+      <property role="20kJfa" value="angular_velocity" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6H$" resolve="AngularVelocity" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBw_Cf" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467600911" />
+      <property role="20kJfa" value="rotation" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6Hy" resolve="Orientation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBw_Ci">
+    <property role="EcuMT" value="8691244386467600914" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="IntegrateLinearVelocity" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBw_Cj" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467600915" />
+      <property role="20kJfa" value="linear_velocity" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6Hz" resolve="LinearVelocity" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBw_Cl" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467600917" />
+      <property role="20kJfa" value="displacement" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="h2tv$hHMir" resolve="Position" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBw_Co">
+    <property role="EcuMT" value="8691244386467600920" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="DifferentiateDisplacement" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBw_Cp" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467600921" />
+      <property role="20kJfa" value="displacement" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="h2tv$hHMir" resolve="Position" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBw_Cr" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467600923" />
+      <property role="20kJfa" value="linear_velocity" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6Hz" resolve="LinearVelocity" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7ytwbyBw_Cu">
+    <property role="EcuMT" value="8691244386467600926" />
+    <property role="3GE5qa" value="relations.behavioural" />
+    <property role="TrG5h" value="DifferentiateRotation" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7ytwbyBw_Cv" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467600927" />
+      <property role="20kJfa" value="rotation" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6Hy" resolve="Orientation" />
+    </node>
+    <node concept="1TJgyj" id="7ytwbyBw_Cx" role="1TKVEi">
+      <property role="IQ2ns" value="8691244386467600929" />
+      <property role="20kJfa" value="angular_velocity" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="byiqNhh6H$" resolve="AngularVelocity" />
+    </node>
+  </node>
 </model>
 
