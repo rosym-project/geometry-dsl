@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/Geometry/Geometry.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/Geometry_Algorithm/Geometry_Algorithm.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Geometry.build/Geometry.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Geometry.sandbox/Geometry.sandbox.msd" folder="" />
     </projectModules>
