@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="990507d3-3527-4c54-bfe9-0ca3c9c6247a" name="com.dslfoundry.plaintextgen" version="0" />
+    <use id="88e31b22-f7a1-4ed1-a668-9711cad402e2" name="Geometry" version="0" />
     <devkit ref="a2eb3a43-fcc2-4200-80dc-c60110c4862d(jetbrains.mps.devkit.templates)" />
   </languages>
   <imports>
@@ -10,6 +11,7 @@
     <import index="yrnj" ref="r:39d792d6-cf99-4045-8e7c-9daa864cff46(Geometry_Algorithm.structure)" implicit="true" />
     <import index="yvgz" ref="r:3b411c10-569a-4299-9505-176144359d3b(Algorithm.structure)" implicit="true" />
     <import index="ixp9" ref="r:172690fd-5286-4218-b525-cadaaf47af22(Algorithm.behavior)" implicit="true" />
+    <import index="aqok" ref="r:b5f8892a-de99-4f37-a2c3-e743edfcd1ca(Geometry.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -70,6 +72,9 @@
       </concept>
     </language>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
+      <concept id="1177093525992" name="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence" flags="lg" index="gft3U">
+        <child id="1177093586806" name="templateNode" index="gfFT$" />
+      </concept>
       <concept id="1168559333462" name="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" flags="ln" index="j$656" />
       <concept id="1112730859144" name="jetbrains.mps.lang.generator.structure.TemplateSwitch" flags="ig" index="jVnub">
         <reference id="1112820671508" name="modifiedSwitch" index="phYkn" />
@@ -312,6 +317,24 @@
         <node concept="2EixSi" id="3OEx4HCwCfo" role="2EinRH" />
       </node>
       <node concept="raruj" id="3OEx4HCwCfk" role="lGtFl" />
+    </node>
+  </node>
+  <node concept="jVnub" id="1E8_Tv_bc9o">
+    <property role="TrG5h" value="switch_GeometryTypeRepresentation" />
+    <ref role="phYkn" to="2g3d:58QN4$b28qm" resolve="switch_TypeRepresentation" />
+    <node concept="3aamgX" id="1E8_Tv_bc9p" role="3aUrZf">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="aqok:1VZCacpZ0Sr" resolve="AffineTransformationType" />
+      <node concept="gft3U" id="1E8_Tv_bccS" role="1lVwrX">
+        <node concept="356WMU" id="1E8_Tv_bccU" role="gfFT$">
+          <node concept="356sEK" id="1E8_Tv_bccX" role="383Ya9">
+            <node concept="356sEF" id="1E8_Tv_bcd0" role="356sEH">
+              <property role="TrG5h" value="struct gc_pose" />
+            </node>
+            <node concept="2EixSi" id="1E8_Tv_bccZ" role="2EinRH" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

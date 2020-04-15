@@ -26,8 +26,10 @@
       </external-templates>
       <dependencies>
         <dependency reexport="false">3bb73e68-12bc-4a5e-9c28-2bb221bc3095(Geometry_Algorithm)</dependency>
+        <dependency reexport="false">88e31b22-f7a1-4ed1-a668-9711cad402e2(Geometry)</dependency>
       </dependencies>
       <languageVersions>
+        <language slang="l:88e31b22-f7a1-4ed1-a668-9711cad402e2:Geometry" version="0" />
         <language slang="l:990507d3-3527-4c54-bfe9-0ca3c9c6247a:com.dslfoundry.plaintextgen" version="0" />
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />
         <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -50,6 +52,7 @@
         <module reference="a8f70f9e-ef01-499f-885c-c79273fa1695(Algorithm)" version="0" />
         <module reference="40039aa5-5dfd-4b77-8737-89f5a034d3fd(Algorithm_CGenerator#01)" version="0" />
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
+        <module reference="88e31b22-f7a1-4ed1-a668-9711cad402e2(Geometry)" version="0" />
         <module reference="3bb73e68-12bc-4a5e-9c28-2bb221bc3095(Geometry_Algorithm)" version="0" />
         <module reference="99a33176-f2ba-469b-b8f8-df38e8025aba(Geometry_CGenerator)" version="0" />
         <module reference="9cf258d9-7ca7-4d88-b07c-d767018961bc(Geometry_CGenerator#01)" version="0" />
