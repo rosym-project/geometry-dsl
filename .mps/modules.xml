@@ -7,6 +7,7 @@
       <modulePath path="$PROJECT_DIR$/languages/Geometry_CGenerator/Geometry_CGenerator.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Geometry.build/Geometry.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/Geometry.sandbox/Geometry.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/Geometry_Algorithm.sandbox/Geometry_Algorithm.sandbox.msd" folder="" />
     </projectModules>
   </component>
 </project>
