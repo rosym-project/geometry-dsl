@@ -29,10 +29,6 @@
         <child id="9024725152236429118" name="position" index="23ETMb" />
         <child id="9024725152236429114" name="orientation" index="23ETMf" />
       </concept>
-      <concept id="9164152868578404474" name="Geometry.structure.Twist" flags="ng" index="2hOVg0">
-        <reference id="3086763581999694736" name="with_respect_to" index="2Koy2f" />
-        <reference id="3086763581999694734" name="of" index="2Koy2h" />
-      </concept>
       <concept id="9164152868578404459" name="Geometry.structure.Pose" flags="ng" index="2hOVgh">
         <reference id="9164152868578404463" name="with_respect_to" index="2hOVgl" />
         <reference id="9164152868578404460" name="of" index="2hOVgm" />
@@ -67,8 +63,14 @@
       </concept>
       <concept id="1789767371069255020" name="Geometry.structure.AccelerationTwist" flags="ng" index="3BZ6Es">
         <property id="3086763581999694727" name="time_derivative" index="2Koy2o" />
-        <reference id="3086763581999694731" name="with_respect_to" index="2Koy2k" />
-        <reference id="3086763581999694729" name="of" index="2Koy2m" />
+      </concept>
+      <concept id="6911726783009704646" name="Geometry.structure.Velocity" flags="ng" index="3UcUw_">
+        <reference id="6911726783009704647" name="of" index="3UcUw$" />
+        <reference id="6911726783009704649" name="with_respect_to" index="3UcUwE" />
+      </concept>
+      <concept id="6911726783009704653" name="Geometry.structure.Acceleration" flags="ng" index="3UcUwI">
+        <reference id="6911726783009704654" name="of" index="3UcUwH" />
+        <reference id="6911726783009704656" name="with_respect_to" index="3UcUwN" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -78,54 +80,54 @@
     </language>
   </registry>
   <node concept="lXl5A" id="5Vo9i3PsokD">
-    <node concept="23ENhA" id="5Vo9i3Psqsk" role="23ESrT">
+    <node concept="23ENhA" id="5ZFoIe_RpHU" role="23ESrT">
       <property role="23D1qb" value="dimensionless, metre" />
-      <ref role="23CM3$" node="5Vo9i3Psqsd" resolve="frame-r" />
       <ref role="2hOVgm" node="5Vo9i3Psqs5" resolve="body-b" />
       <ref role="2hOVgl" node="5Vo9i3PsqrE" resolve="body-a" />
-      <node concept="23E6QB" id="5Vo9i3Psqsm" role="23ETMf">
-        <node concept="23E526" id="5Vo9i3Psqso" role="23E6QA">
-          <node concept="3cmrfG" id="5Vo9i3Psqui" role="23DMMQ">
+      <ref role="23CM3$" node="5Vo9i3Psqsd" resolve="frame-r" />
+      <node concept="23E6QB" id="5ZFoIe_RpHW" role="23ETMf">
+        <node concept="23E526" id="5ZFoIe_RpHY" role="23E6QA">
+          <node concept="3cmrfG" id="5ZFoIe_RpKa" role="23DMMQ">
             <property role="3cmrfH" value="1" />
           </node>
-          <node concept="3cmrfG" id="5Vo9i3Psq_H" role="23DMMK">
+          <node concept="3cmrfG" id="5ZFoIe_RpRu" role="23DMMK">
             <property role="3cmrfH" value="0" />
           </node>
-          <node concept="3cmrfG" id="5Vo9i3PsqBh" role="23DMMX">
+          <node concept="3cmrfG" id="5ZFoIe_RpRM" role="23DMMX">
             <property role="3cmrfH" value="0" />
           </node>
         </node>
-        <node concept="23E526" id="5Vo9i3Psqsw" role="23E6Qw">
-          <node concept="3cmrfG" id="5Vo9i3Psq_5" role="23DMMQ">
+        <node concept="23E526" id="5ZFoIe_RpI6" role="23E6Qw">
+          <node concept="3cmrfG" id="5ZFoIe_RpQe" role="23DMMQ">
             <property role="3cmrfH" value="0" />
           </node>
-          <node concept="3cmrfG" id="5Vo9i3PsqA1" role="23DMMK">
+          <node concept="3cmrfG" id="5ZFoIe_RpQS" role="23DMMK">
             <property role="3cmrfH" value="1" />
           </node>
-          <node concept="3cmrfG" id="5Vo9i3PsqAX" role="23DMMX">
+          <node concept="3cmrfG" id="5ZFoIe_RpS6" role="23DMMX">
             <property role="3cmrfH" value="0" />
           </node>
         </node>
-        <node concept="23E526" id="5Vo9i3PsqsC" role="23E6QH">
-          <node concept="3cmrfG" id="5Vo9i3Psq_p" role="23DMMQ">
+        <node concept="23E526" id="5ZFoIe_RpIe" role="23E6QH">
+          <node concept="3cmrfG" id="5ZFoIe_RpQy" role="23DMMQ">
             <property role="3cmrfH" value="0" />
           </node>
-          <node concept="3cmrfG" id="5Vo9i3PsqAl" role="23DMMK">
+          <node concept="3cmrfG" id="5ZFoIe_RpQQ" role="23DMMK">
             <property role="3cmrfH" value="0" />
           </node>
-          <node concept="3cmrfG" id="5Vo9i3PsqAD" role="23DMMX">
+          <node concept="3cmrfG" id="5ZFoIe_RpYa" role="23DMMX">
             <property role="3cmrfH" value="1" />
           </node>
         </node>
       </node>
-      <node concept="23E526" id="5Vo9i3PsqsK" role="23ETMb">
-        <node concept="3cmrfG" id="5Vo9i3PsqB_" role="23DMMQ">
+      <node concept="23E526" id="5ZFoIe_RpIm" role="23ETMb">
+        <node concept="3cmrfG" id="5ZFoIe_RpZ6" role="23DMMQ">
           <property role="3cmrfH" value="0" />
         </node>
-        <node concept="3cmrfG" id="5Vo9i3PsqIo" role="23DMMK">
+        <node concept="3cmrfG" id="5ZFoIe_RpYM" role="23DMMK">
           <property role="3cmrfH" value="1" />
         </node>
-        <node concept="3cmrfG" id="5Vo9i3PsqIG" role="23DMMX">
+        <node concept="3cmrfG" id="5ZFoIe_RpYu" role="23DMMX">
           <property role="3cmrfH" value="0" />
         </node>
       </node>
@@ -157,10 +159,10 @@
     </node>
     <node concept="2Koy2c" id="5Vo9i3PsqJ0" role="23COxS">
       <property role="23D5IF" value="metre_per_second, radian_per_second" />
-      <ref role="2Koy2h" node="5Vo9i3Psqs5" resolve="body-b" />
-      <ref role="2Koy2f" node="5Vo9i3PsqrE" resolve="body-a" />
       <ref role="2Koy29" node="5Vo9i3Psqsd" resolve="frame-r" />
       <ref role="2Koy3e" node="5Vo9i3PsqqY" resolve="r-origin" />
+      <ref role="3UcUw$" node="5Vo9i3Psqs5" resolve="body-b" />
+      <ref role="3UcUwE" node="5Vo9i3PsqrE" resolve="body-a" />
       <node concept="23E526" id="5Vo9i3PsqJ1" role="23E53Y">
         <node concept="3cmrfG" id="5Vo9i3PsqJQ" role="23DMMQ">
           <property role="3cmrfH" value="1" />
@@ -188,9 +190,9 @@
       <property role="23D5Id" value="metre_per_second_squared, radian_per_second_squared" />
       <property role="2Koy2o" value="2FmoLYqH4e3/Ordinary" />
       <ref role="23EJhb" node="5Vo9i3PsqqY" resolve="r-origin" />
-      <ref role="2Koy2m" node="5Vo9i3Psqs5" resolve="body-b" />
-      <ref role="2Koy2k" node="5Vo9i3PsqrE" resolve="body-a" />
       <ref role="23EJIP" node="5Vo9i3Psqsd" resolve="frame-r" />
+      <ref role="3UcUwH" node="5Vo9i3Psqs5" resolve="body-b" />
+      <ref role="3UcUwN" node="5Vo9i3PsqrE" resolve="body-a" />
       <node concept="23E526" id="5Vo9i3PsqYH" role="23D5Il">
         <node concept="3cmrfG" id="5Vo9i3PsqZy" role="23DMMQ">
           <property role="3cmrfH" value="0" />
