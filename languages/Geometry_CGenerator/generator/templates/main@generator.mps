@@ -15,6 +15,7 @@
   <registry>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
       <concept id="1510949579266781519" name="jetbrains.mps.lang.generator.structure.TemplateCallMacro" flags="ln" index="5jKBG" />
+      <concept id="1202776937179" name="jetbrains.mps.lang.generator.structure.AbandonInput_RuleConsequence" flags="lg" index="b5Tf3" />
       <concept id="1177093525992" name="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence" flags="lg" index="gft3U">
         <child id="1177093586806" name="templateNode" index="gfFT$" />
       </concept>
@@ -94,6 +95,16 @@
         </node>
       </node>
     </node>
+    <node concept="3aamgX" id="3hqim12GyaL" role="3aUrZf">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="yrnj:6mgQyaw2Wk5" resolve="TransformScrewTwistForward" />
+      <node concept="j$656" id="3hqim12GycW" role="1lVwrX">
+        <ref role="v9R2y" node="3hqim12GycM" resolve="transformScrewTwistForwardCall" />
+        <node concept="v3LJS" id="3hqim12Gyd0" role="v9R3O">
+          <ref role="v3LJV" node="5bwHbMcbyhL" resolve="parentFunction" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="13MO4I" id="3OEx4HCwCai">
     <property role="TrG5h" value="composeAffineTransformCall" />
@@ -139,6 +150,61 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3aamgX" id="3hqim12Gy7V" role="3aUrZf">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="aqok:1VZCacpZ7Ej" resolve="ScrewTwistType" />
+      <node concept="gft3U" id="3hqim12Gy8d" role="1lVwrX">
+        <node concept="356WMU" id="3hqim12Gy8o" role="gfFT$">
+          <node concept="356sEK" id="3hqim12Gy8r" role="383Ya9">
+            <node concept="356sEF" id="3hqim12Gy8s" role="356sEH">
+              <property role="TrG5h" value="struct gc_twist" />
+            </node>
+            <node concept="2EixSi" id="3hqim12Gy8t" role="2EinRH" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="jVnub" id="3hqim12Gyao">
+    <property role="TrG5h" value="switch_GeometryFunctionDeclare" />
+    <ref role="phYkn" to="2g3d:5Tr1VsJKqPb" resolve="switch_FunctionDeclare" />
+    <node concept="3aamgX" id="3hqim12Gyap" role="3aUrZf">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="yrnj:5ZFoIe_PvVI" resolve="ComposeAffineTransform" />
+      <node concept="b5Tf3" id="3hqim12Gyav" role="1lVwrX" />
+    </node>
+    <node concept="3aamgX" id="3hqim12Gyaz" role="3aUrZf">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="yrnj:6mgQyaw2Wk5" resolve="TransformScrewTwistForward" />
+      <node concept="b5Tf3" id="3hqim12GyaH" role="1lVwrX" />
+    </node>
+  </node>
+  <node concept="13MO4I" id="3hqim12GycM">
+    <property role="TrG5h" value="transformScrewTwistForwardCall" />
+    <node concept="1N15co" id="3hqim12GycO" role="1s_3oS">
+      <property role="TrG5h" value="parentFunction" />
+      <node concept="3Tqbb2" id="3hqim12Gyfs" role="1N15GL">
+        <ref role="ehGHo" to="yvgz:7YUYw4xHlaz" resolve="FunctionBlockContainer" />
+      </node>
+    </node>
+    <node concept="356WMU" id="3hqim12GyfE" role="13RCb5">
+      <node concept="356sEK" id="3hqim12GyfH" role="383Ya9">
+        <node concept="356sEF" id="3hqim12GyfI" role="356sEH">
+          <property role="TrG5h" value="gc_twist_tf_ref_to_tgt" />
+        </node>
+        <node concept="2EixSi" id="3hqim12GyfJ" role="2EinRH" />
+        <node concept="356sEF" id="3hqim12GyfQ" role="356sEH">
+          <property role="TrG5h" value="args" />
+          <node concept="5jKBG" id="3hqim12GykP" role="lGtFl">
+            <ref role="v9R2y" to="2g3d:5Tr1VsJNE2J" resolve="include_FunctionCallArgs" />
+            <node concept="v3LJS" id="3hqim12GykT" role="v9R3O">
+              <ref role="v3LJV" node="3hqim12GycO" resolve="parentFunction" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="raruj" id="3hqim12GykJ" role="lGtFl" />
     </node>
   </node>
 </model>
