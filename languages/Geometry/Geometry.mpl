@@ -6,12 +6,13 @@
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
-      <classes generated="true" path="${module}/classes_gen" />
-    </facet>
+    <facet type="java" />
   </facets>
   <accessoryModels />
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
+  </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
