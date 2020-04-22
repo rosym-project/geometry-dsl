@@ -65,11 +65,21 @@
   <node concept="1u3Uyy" id="3OEx4HCwHiW">
     <property role="TrG5h" value="fpk_algorithm" />
     <node concept="2_B1M0" id="3OEx4HCwM5g" role="3SlQUm">
-      <property role="TrG5h" value="joint_tf" />
+      <property role="TrG5h" value="state" />
       <node concept="1OHxBU" id="3OEx4HCwM5m" role="1ptsVk">
-        <property role="TrG5h" value="x" />
+        <property role="TrG5h" value="x_jnt" />
         <property role="1OHxBQ" value="6po$YwiVCCq/InOut" />
         <node concept="70UUS" id="3OEx4HCwM5q" role="1OHwi9" />
+      </node>
+      <node concept="1OHxBU" id="3hqim12GyH$" role="1ptsVk">
+        <property role="TrG5h" value="x_link" />
+        <property role="1OHxBQ" value="6po$YwiVCCq/InOut" />
+        <node concept="70UUS" id="3hqim12GyHE" role="1OHwi9" />
+      </node>
+      <node concept="1OHxBU" id="3hqim12GyHH" role="1ptsVk">
+        <property role="TrG5h" value="x_rel" />
+        <property role="1OHxBQ" value="6po$YwiVCCq/InOut" />
+        <node concept="70UUS" id="3hqim12GyHP" role="1OHwi9" />
       </node>
     </node>
     <node concept="3UfDKd" id="6kOH0z64Fub" role="3SlQUd">
@@ -112,33 +122,17 @@
       <ref role="1psEHb" node="3OEx4HCwHjQ" resolve="compose" />
       <ref role="1psEGP" node="6kOH0z64FuL" resolve="trigger" />
     </node>
-    <node concept="2_B1M0" id="3OEx4HCwLWN" role="3SlQUm">
-      <property role="TrG5h" value="link_tf" />
-      <node concept="1OHxBU" id="3OEx4HCwLWP" role="1ptsVk">
-        <property role="TrG5h" value="x" />
-        <property role="1OHxBQ" value="6po$YwiVCCq/InOut" />
-        <node concept="70UUS" id="3OEx4HCwLWT" role="1OHwi9" />
-      </node>
-    </node>
-    <node concept="2_B1M0" id="3OEx4HCwM5_" role="3SlQUm">
-      <property role="TrG5h" value="root_to_root_tf" />
-      <node concept="1OHxBU" id="3OEx4HCwM5I" role="1ptsVk">
-        <property role="TrG5h" value="x" />
-        <property role="1OHxBQ" value="6po$YwiVCCq/InOut" />
-        <node concept="70UUS" id="3OEx4HCwM5M" role="1OHwi9" />
-      </node>
-    </node>
     <node concept="1OHxBB" id="3OEx4HCwM5P" role="3SlQUq">
       <ref role="1OHxBS" node="6kOH0z64Fum" resolve="x1" />
-      <ref role="1OHyup" node="3OEx4HCwM5m" resolve="x" />
+      <ref role="1OHyup" node="3hqim12GyH$" resolve="x_link" />
     </node>
     <node concept="1OHxBB" id="3OEx4HCwM5U" role="3SlQUq">
       <ref role="1OHxBS" node="6kOH0z64Fut" resolve="x2" />
-      <ref role="1OHyup" node="3OEx4HCwLWP" resolve="x" />
+      <ref role="1OHyup" node="3OEx4HCwM5m" resolve="x_jnt" />
     </node>
     <node concept="1OHxBB" id="3OEx4HCwM60" role="3SlQUq">
       <ref role="1OHxBS" node="6kOH0z64FuA" resolve="r" />
-      <ref role="1OHyup" node="3OEx4HCwM5I" resolve="x" />
+      <ref role="1OHyup" node="3hqim12GyHH" resolve="x_rel" />
     </node>
   </node>
 </model>
