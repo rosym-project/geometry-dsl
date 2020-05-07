@@ -207,5 +207,27 @@
       <node concept="raruj" id="3hqim12GykJ" role="lGtFl" />
     </node>
   </node>
+  <node concept="jVnub" id="1W5BUKIjgjF">
+    <property role="TrG5h" value="switch_GeometryFunctionHeaderInclude" />
+    <ref role="phYkn" to="2g3d:w_xyS7nP1A" resolve="switch_FunctionHeaderInclude" />
+    <node concept="3aamgX" id="1W5BUKIjgjG" role="3aUrZf">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="yrnj:5ZFoIe_PvVI" resolve="ComposeAffineTransform" />
+      <node concept="gft3U" id="1W5BUKIjgki" role="1lVwrX">
+        <node concept="356sEF" id="1W5BUKIjgkG" role="gfFT$">
+          <property role="TrG5h" value="#include &lt;dyn2b/functions/geometry.h&gt;" />
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="1W5BUKIjh0n" role="3aUrZf">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="yrnj:6mgQyaw2Wk5" resolve="TransformScrewTwistForward" />
+      <node concept="gft3U" id="1W5BUKIjh0u" role="1lVwrX">
+        <node concept="356sEF" id="1W5BUKIjh0$" role="gfFT$">
+          <property role="TrG5h" value="#include &lt;dyn2b/functions/geometry.h&gt;" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
