@@ -15,7 +15,6 @@
   <registry>
     <language id="b401a680-8325-4110-8fd3-84331ff25bef" name="jetbrains.mps.lang.generator">
       <concept id="1510949579266781519" name="jetbrains.mps.lang.generator.structure.TemplateCallMacro" flags="ln" index="5jKBG" />
-      <concept id="1202776937179" name="jetbrains.mps.lang.generator.structure.AbandonInput_RuleConsequence" flags="lg" index="b5Tf3" />
       <concept id="1177093525992" name="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence" flags="lg" index="gft3U">
         <child id="1177093586806" name="templateNode" index="gfFT$" />
       </concept>
@@ -167,17 +166,25 @@
     </node>
   </node>
   <node concept="jVnub" id="3hqim12Gyao">
-    <property role="TrG5h" value="switch_GeometryFunctionDeclare" />
+    <property role="TrG5h" value="switch_GeometryFunctionDefinition" />
     <ref role="phYkn" to="2g3d:5Tr1VsJKqPb" resolve="switch_FunctionDefinition" />
     <node concept="3aamgX" id="3hqim12Gyap" role="3aUrZf">
       <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="yrnj:5ZFoIe_PvVI" resolve="ComposeAffineTransform" />
-      <node concept="b5Tf3" id="3hqim12Gyav" role="1lVwrX" />
+      <node concept="gft3U" id="6WdciNuFGeM" role="1lVwrX">
+        <node concept="356sEF" id="6WdciNuFGf6" role="gfFT$">
+          <property role="TrG5h" value=" " />
+        </node>
+      </node>
     </node>
     <node concept="3aamgX" id="3hqim12Gyaz" role="3aUrZf">
       <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="yrnj:6mgQyaw2Wk5" resolve="TransformScrewTwistForward" />
-      <node concept="b5Tf3" id="3hqim12GyaH" role="1lVwrX" />
+      <node concept="gft3U" id="6WdciNuFGfa" role="1lVwrX">
+        <node concept="356sEF" id="6WdciNuFGfg" role="gfFT$">
+          <property role="TrG5h" value=" " />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="13MO4I" id="3hqim12GycM">
@@ -205,6 +212,28 @@
         </node>
       </node>
       <node concept="raruj" id="3hqim12GykJ" role="lGtFl" />
+    </node>
+  </node>
+  <node concept="jVnub" id="6WdciNuFJv2">
+    <property role="TrG5h" value="switch_GeometryFunctionDeclaration" />
+    <ref role="phYkn" to="2g3d:w_xyS7aKgB" resolve="switch_FunctionDeclaration" />
+    <node concept="3aamgX" id="6WdciNuFJv3" role="3aUrZf">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="yrnj:5ZFoIe_PvVI" resolve="ComposeAffineTransform" />
+      <node concept="gft3U" id="6WdciNuFJvf" role="1lVwrX">
+        <node concept="356sEF" id="6WdciNuFJvl" role="gfFT$">
+          <property role="TrG5h" value=" " />
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="6WdciNuFJVi" role="3aUrZf">
+      <property role="36QftV" value="true" />
+      <ref role="30HIoZ" to="yrnj:6mgQyaw2Wk5" resolve="TransformScrewTwistForward" />
+      <node concept="gft3U" id="6WdciNuFJVB" role="1lVwrX">
+        <node concept="356sEF" id="6WdciNuFJVH" role="gfFT$">
+          <property role="TrG5h" value=" " />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="jVnub" id="1W5BUKIjgjF">
