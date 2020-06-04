@@ -117,7 +117,7 @@
     <node concept="356WMU" id="3OEx4HCwCf1" role="13RCb5">
       <node concept="356sEK" id="5bwHbMcbzx$" role="383Ya9">
         <node concept="356sEF" id="5bwHbMcbzx_" role="356sEH">
-          <property role="TrG5h" value="gc_compose_pose" />
+          <property role="TrG5h" value="gc_pose_compose" />
         </node>
         <node concept="356sEF" id="5bwHbMcbz_q" role="356sEH">
           <property role="TrG5h" value="args" />

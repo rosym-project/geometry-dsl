@@ -115,7 +115,7 @@
             <node concept="2ShNRf" id="7JrCdBmxzp3" role="33vP2m">
               <node concept="Tc6Ow" id="7JrCdBmxO3w" role="2ShVmc">
                 <node concept="Xl_RD" id="7JrCdBmxOMo" role="HW$Y0">
-                  <property role="Xl_RC" value="libgeo" />
+                  <property role="Xl_RC" value="${dyn2b_LIBRARIES}" />
                 </node>
                 <node concept="17QB3L" id="7JrCdBmxOK1" role="HW$YZ" />
               </node>
@@ -169,7 +169,7 @@
               <node concept="Tc6Ow" id="7JrCdBmz1O5" role="2ShVmc">
                 <node concept="17QB3L" id="7JrCdBmz26r" role="HW$YZ" />
                 <node concept="Xl_RD" id="7JrCdBmz4UI" role="HW$Y0">
-                  <property role="Xl_RC" value="libgeo" />
+                  <property role="Xl_RC" value="${dyn2b_LIBRARIES}" />
                 </node>
               </node>
             </node>
