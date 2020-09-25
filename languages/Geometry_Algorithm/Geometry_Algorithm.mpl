@@ -12,6 +12,11 @@
   </facets>
   <accessoryModels />
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+    <dependency reexport="false">a8f70f9e-ef01-499f-885c-c79273fa1695(Algorithm)</dependency>
+    <dependency reexport="false">88e31b22-f7a1-4ed1-a668-9711cad402e2(Geometry)</dependency>
+  </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="9" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -49,6 +54,7 @@
   <dependencyVersions>
     <module reference="a8f70f9e-ef01-499f-885c-c79273fa1695(Algorithm)" version="0" />
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
+    <module reference="88e31b22-f7a1-4ed1-a668-9711cad402e2(Geometry)" version="0" />
     <module reference="3bb73e68-12bc-4a5e-9c28-2bb221bc3095(Geometry_Algorithm)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
